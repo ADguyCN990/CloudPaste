@@ -1,6 +1,6 @@
 export default {
   app: {
-    title: "CloudPaste",
+    title: "金晖のCloudPaste",
     slogan: "安全分享您的内容",
   },
   nav: {
@@ -21,7 +21,7 @@ export default {
     en: "英文",
   },
   footer: {
-    copyright: "CloudPaste © {year} - 安全分享您的内容",
+    copyright: "金晖のCloudPaste © {year} - 安全分享您的内容",
   },
   markdown: {
     title: "Markdown 编辑器",

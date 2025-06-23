@@ -1,6 +1,6 @@
 export default {
   app: {
-    title: "CloudPaste",
+    title: "adguyのCloudPaste",
     slogan: "Securely share your content",
   },
   nav: {
@@ -20,7 +20,7 @@ export default {
     en: "English",
   },
   footer: {
-    copyright: "CloudPaste © {year} - Securely share your content",
+    copyright: "adguyのCloudPaste © {year} - Securely share your content",
   },
   markdown: {
     title: "Markdown Editor",
