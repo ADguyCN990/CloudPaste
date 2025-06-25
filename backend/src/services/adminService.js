@@ -75,7 +75,8 @@ export async function login(db, username, password) {
 
   // 生成并存储令牌
   const token = generateRandomString(32);
-  const expiresAt = new Date();
+  // const expiresAt = new Date(); 原先设置，1天过期
+  const expiresAt = new Date('2099-12-31'); // 设置为一个极远的未来日期，设定永不过期
   expiresAt.setDate(expiresAt.getDate() + 1); // 1天过期
 
   await db
